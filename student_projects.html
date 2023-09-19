@@ -1,0 +1,21 @@
+---
+layout: default
+title: "Student Projects"
+description: "A page where you can find links to the pages of all the student projects."
+categories: [student_projects]
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+</head>
+
+<body>
+    <ul>
+        {% for project in site.data.student_projects %}
+        <li>
+            <a href="{{ project.url }}">{{ project.name}}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</body>

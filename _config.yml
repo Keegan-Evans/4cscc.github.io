@@ -14,3 +14,10 @@ plugins:
 
 minima:
   skin: dark
+
+header_pages:
+  - about.md
+  - student_projects.html
+  - friends-of-4CSCC.md
+  - team.html
+  - lab-manual.md
